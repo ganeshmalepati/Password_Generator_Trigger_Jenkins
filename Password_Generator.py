@@ -9,9 +9,10 @@ def password_generator(n_letters, n_numbers, n_symbols):
     Generated_Password = ''.join(password)
     return Generated_Password
 
-n_letters = int(input("Enter the count of letters: "))
-n_numbers = int(input("Enter the count of numbers: "))
-n_symbols = int(input("Enter the count of symbols: "))
+n_letters = 6
+n_numbers = 3
+n_symbols = 1
 a = password_generator(n_letters, n_numbers, n_symbols)
 print("The Generated Password is: {}".format(a))
+
     
